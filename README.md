@@ -7,7 +7,6 @@ Este proyecto utiliza la secuencia `r2b_robotarm` del [R2B Dataset 2024 de NVIDI
 ```console
 cd ~/ros2_ws/ 
 git clone https://github.com/rolma271/rolon_pkg.git
-cd ..
 ```
 
 ## Descarga del dataset
@@ -48,6 +47,6 @@ ros2 launch rolon_pkg rosbag_visualization.launch.py
 
 Esto hará lo siguiente:
 
-1. Reproducirá automáticamente el rosbag.
-2. Abrirá RViz con la visualización configurada del entorno del brazo robótico.
-3. Iniciará RQT con una perspectiva personalizada que muestra los tópicos del sistema.
+1. Reproducirá automáticamente el **rosbag**.
+2. Abrirá **RViz** con la visualización configurada del entorno del brazo robótico.
+3. Iniciará **RQT** con una perspectiva personalizada que muestra los tópicos del sistema.
